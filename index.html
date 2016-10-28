@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Basic Bootstrap File</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css"> 
+</head>
+<body>
+<div class="container">
+    <div class="row">
+		
+<h1>How well do you know Chicago?</h1>
+<p>My nostalgia for Chicago, my hometown, is showing because my aunt who lives just outside Wrigley stadium has been posting Cubs photos all week. In honor of that, scroll through this <a href="https://en.wikipedia.org/wiki/Chicago">website</a> and take the quiz to see whether you're a Chicago native or a tourist.</p>
+ <form>
+<div class="form-group">
+<label for="inputCity">1. What city were you born in?</label>
+<input class="form-control" type="text" id="inputCity" placeholder="What city were you born it?">
+     </div>             
+<div class="form-group">
+    <label>2. Chicago is located near which great lake? </label>                
+    
+    <div class="radio"><label><input id="inputLake1" type="radio" name="q2" value="a"> Lake Superior  </label></div>
+    <div class="radio"><label><input id="inputLake2" type="radio" name="q2" value="a"> Lake Huron </label></div>
+    <div class="radio"><label><input id="inputLake3" type="radio" name="q2" value="b"> Lake Michigan </label></div>
+    <div class="radio"><label><input id="inputLake4" type="radio" name="q2" value="c"> Lake Erie </label></div>
+     </div>
+    <div class="form-group">
+    <label>3. Which of the following foods come from Chicago? </label>
+    <div class="checkbox"><label><input id="inputFood1" type="checkbox" name="q3" value="a"> Deep dish-pizza  </label></div>
+    <div class="checkbox"><label><input id="inputFood2" type="checkbox" name="q3" value="b"> Gyro </label></div>
+    <div class="checkbox"><label><input id="inputFood3" type="checkbox" name="q3" value="c"> Chicago-style hot dog </label></div>
+    <div class="checkbox"><label><input id="inputFood4" type="checkbox" name="q3" value="d"> French dip sandwich </label></div> 
+     </div>
+     <div class="form-group">
+<label>3. Write the name of a Chicago suburb.</label>
+    <textarea class="form-control" name="area" id="q3" rows="1" placeholder="Write the name of a Chicago suburb."></textarea>
+     </div>
+<div class="form-group">
+    <label>4. Which of the following is your favorite tourist destination in Chicago?</label>
+    <select name="q4" id="q4a">
+    <option value="value1"> Field Museum of Natural History </option>
+    <option value="value2"> Navy Pier </option>
+    <option value="value3"> Wrigley Field </option>
+    <option value="value4"> Chicago Public Library </option>
+    <option value="value5"> Alder Planetarium and Astronomy Museum </option>
+    <option value="value6"> DuSable Museum of African American History </option>
+    <option value="value7"> Barack Obama Presidental Center (coming 2020) </option>
+    <option value="value8"> Michigan Avenue </option>
+    </select>
+     </div>
+     <div class="form-group">
+<div><label for="inputYear">5. In what year was the city of Chicago incorporated?</label>
+<input class="form-control" type="text" id="inputYear" placeholder="In what year was the city of Chicago incorporated?"></div>
+     </div>
+     <div class="form-group">
+<label for="inputPerson">6. Name one notable person who lived in Chicago.</label>
+<input class="form-control" type="text" id="inputPerson" placeholder="Name one notable person who lived in Chicago.">
+     </div>
+    
+<input class="btn btn-default" type="submit" value="Submit"> <input class="btn btn-default" type="reset" value="Start Over"> 
+</form>
+ 
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </div>
+</body>
+</html>
+
+
